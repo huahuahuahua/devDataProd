@@ -15,9 +15,10 @@ This application predict diamond price based on the diamond carat through 2 diff
 
 Reference documents
 
-- Code location:
-- User document:
-- This presentation location:
+- Code location: GITHUB <https://github.com/huahuahuahua/devDataProd>
+- User document: GITHUB <https://github.com/huahuahuahua/devDataProd/blob/master/user_documentation.Rmd>
+- This presentation location: GITHUB <https://huahuahuahua.github.io/devDataProd/presentation_with_slidify.html>
+- Shiny server page: Shiny.io <https://huahuahuahua.shinyapps.io/developing_data_products/>
 
 ## UI Components
 
