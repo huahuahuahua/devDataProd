@@ -29,7 +29,7 @@ Reference documents
 - Text output: Display the predicted dollar amount of the prices cacluated by each model.
 
 ## Server Componenst
-
+```{r echo=TRUE, eval=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
 library(shiny)
 library(ggplot2)
 
@@ -50,11 +50,12 @@ shinyServer(function(input, output) {
     caratInput <- input$sliderCarat
     predict(model2, newdata = data.frame(carat = caratInput, caratmd = ifelse(caratInput - 0.7 > 0, caratInput -0.7, 0)))
   })
-
+}) 
+```
 
 ## Server Componenst - continued
 
-
+```{r echo=TRUE, eval=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
   output$plot1 <- renderPlot({
     
    caratInput <- input$sliderCarat
@@ -82,5 +83,4 @@ shinyServer(function(input, output) {
     output$pred2 <- renderText({
        model2pred()
      })
-})    
-
+```
