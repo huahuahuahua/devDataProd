@@ -1,0 +1,20 @@
+---
+title: "Shiny Application User Document"
+author: "H.S."
+date: "January 29, 2018"
+output: html_document
+---
+
+## User Documentation
+
+This documentation is to help the users on using the 'Predict Diamond Price by Carat' application.  
+
+* Left side panel:  
+
+. Slider Input: This slider allows a user to specify the diamond carat between 0 and 5 increasing by 0.1 carat.  
+. Checkbox: allow user to show or hide model regression lines.  
+. Submit button: server calculation starts when user click the submit button.  
+
+* Right side panel:  
+. Plot: plot the diamond data (carat vs. price). Display predicted diamond prices and regression lines.  
+. Text output: Display the predicted dollar amount of the prices cacluated by each model.
